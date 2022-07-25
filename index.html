@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daiane Ferreira">
+    <title>Atividade 21</title>
+
+    <link href="imagens/img.png" rel="shortcut icon" type="imag.png"/> 
+
+    </estilo>
+    <link rel="stylesheet" href="css/estilo" type="text/css" media="all">
+
+</head>
+<body style="background-image: url(imagens/img.png);" id="body">
+    <header>
+        <h1>Caixa de comentários.</h1>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <form onsubmit="return false">
+                <label>Nome:</label>
+                <br>
+                <input type="text" placeholder="Informe seu nome" id="nome" class="ipt-altura largura-maxima"/>
+                <br>
+                <br>
+                <label>Comentários:</label>
+                <br>
+                <textarea rows="8" id="comentario" name="comentario" cols="100" class="comentario largura-maxima">Digite seu comentário.</textarea>
+                <br>        
+                <br>
+                <label>Formatação</label>
+                <br>
+                <label>Cor de texto:</label>
+                <input type="color" id="cor-texto" value="#16161d" />
+                <label>Cor de fundo:</label>
+                <input type="color" id="cor-fundo" value="#ffffff" />
+                <br> 
+                <br>
+                <button class= "ipt-altura" onclick="exibirComentario()">Enviar</button>
+            </form>
+            <br>
+            <hr>
+            <br>
+            <div id="result"></div>
+        </div>
+    </main>
+
+  <script src="js/script.js"></script>
+    
+</body>
+</html>

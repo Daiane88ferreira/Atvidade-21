@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: 10px 30px;
+}
+
+.container form{
+    justify-content: left;
+
+}
+
+.container form div {
+    padding: 10px 20px;
+    
+}
+
+.container form div:not(:last-child) {
+    border-right: 1px inset #fff;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.btn-alterar {
+    align-items: center;
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: aqua;
+    color: white;
+    border: 1px outset #ccc;
+}
+
+button:hover {
+    background-color: #050;
+    box-shadow: 5px 5px 10px #aaa;
+}
+
+.result {
+    border-radius: 5px;
+}
+
+    
